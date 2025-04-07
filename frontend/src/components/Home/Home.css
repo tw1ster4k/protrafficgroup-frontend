@@ -1,0 +1,1440 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../inStyles/Montserrat/static/Montserrat-Italic.ttf);
+  }
+
+  @font-face {
+    font-family: Montserrat-Medium;
+    src: url(../../inStyles/Montserrat/static/Montserrat-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: Montserrat-Bold;
+    src: url(../../inStyles/Montserrat/static/Montserrat-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Montserrat-B;
+    src: url(../../inStyles/Montserrat/static/Montserrat-Bold.ttf);
+  }
+  @font-face {
+    font-family: Montserrat-Regular;
+    src: url(../../inStyles/Montserrat/static/Montserrat-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Montserrat-Black;
+    src: url(../../inStyles/Montserrat/static/Montserrat-Black.ttf);
+  }
+
+
+  .main{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top:120px;
+  }
+  .nav__team{
+    flex-direction: row;
+  }
+  .welcome{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    gap: 12px;
+    background: none;
+  }
+  .companyName{
+    width: 100%;
+    height: 368px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .description{
+    width: 439px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    font-family: Montserrat;
+    color: #14181e;
+  }
+  .sum__btn{
+    margin-top: 24px;
+    background-color: #6b71f9;
+    height: 56px;
+    width: 254px;
+    border: none;
+    color: #ffffff;
+    box-shadow: 0px 0px 12px 0px #6B71F933;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    line-height: 19.5px;
+  }
+  .rocket{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .nav{
+    height: 681px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav__other{
+    z-index: 12;
+  }
+  .price__nav{
+    height: 592px;
+    width: 602px;
+    background-color: #14181e;
+    border-radius: 50px;
+    z-index: 12;
+    padding-left: 40px;
+    padding-top: 73px;
+    overflow: hidden;
+  }
+  .price__nav-title{
+    color:#ffffff;
+    font-size:35px;
+    line-height:42.67px;
+    font-weight: 700;
+    max-width: 522px;
+    font-family: Montserrat-Bold;
+  }
+  .price__nav-text{
+    color: #FFFFFF;
+    font-size:20px;
+    line-height: 24.38px;
+    font-weight: 400;
+    max-width: 522px;
+    font-family: Montserrat;
+    margin-top:16px;
+
+  }
+  .weCommands{
+    background-color: #fd6153;
+    height: 296.5px;
+    width: 445.75px;
+    border-radius: 50px;
+  }
+  .weCommands-h1{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 63.39px;
+    color: #ffffff;
+    font-family: Montserrat-B;
+    margin-left: 40px;
+    position: relative;
+    bottom: 40px;
+  }
+  .ptgcommands{
+    position: relative;
+    left: 200px;
+  }
+  .reviews-faq{
+    margin-left:16px;
+  }
+  .reviews-url{
+    height: 140.25px;
+    width: 140.25px;
+    border-radius: 131px;
+    background: url(../../inStyles/images/reviews.svg);
+  }
+  .faq{
+    width: 140.25px;
+    height: 140.25px;
+    border-radius: 50px;
+    background-color: #14181e;
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size:35px;
+    line-height: 42.67px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+  .porfolio{
+    width: 602px;
+    height: 366.5px;
+    background: url(../../inStyles/images/Subtract.svg);
+    margin-top: 16px;
+  }
+  .brief-button{
+    width: 300px;
+    height: 112px;
+    border-radius: 50px;
+    background-color: #fff8c5;
+    border: none;
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size:24px;
+    line-height:29.26px;
+    color:#fd6153;
+    position: relative;
+    top: 254.5px;
+    left:302px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+.brief-button:hover{
+  background-color: #fff8c5;
+}
+  .brief-button-text{
+    width: 140px;
+    text-align: left;
+    margin-left: 18px;
+  }
+  .services{
+    margin: 0 auto;
+    margin-top:150px;
+    display: block;
+    width: 90%;
+    gap: 12px;
+    background: none;
+    z-index: 3;
+  }
+  .services:after{
+    content:url('../../inStyles/images/Frame\ 360.svg');
+    position: absolute;
+    top: 1600px;
+    right: 0;
+    z-index: 0;
+  }
+  .services:before{
+    content: url("../../inStyles/images/Frame\ 359.svg");
+    top: 1200px;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+  }
+  .block-title{
+    font-family: Montserrat-Black;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 97.52px;
+    color: #14181e;
+  }
+  .services-content{
+    width:100%;
+    margin-top: 32px;
+    padding-top: 51px;
+    padding-left: 55px;
+    height: 1550px;
+  }
+  .services-card{
+    width: 555px;
+    height: 370px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 21px 0px #3F44C026;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index:4;
+  }
+  .services-card.first{
+    z-index: 2;
+    position: relative;
+  }
+  .services-card.second{
+    position: relative;
+    left:320px;
+    bottom:163px;
+  }
+  .services-card.third{
+    position: relative;
+    bottom: 180px;
+  }
+  .services-card.fourth{
+    position: relative;
+    bottom: 250px;
+    left: 320px;
+  }
+  .services-card-title{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    font-family: Montserrat-B;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #14181e;
+  }
+  .services-card-title-svg{
+    margin-right: 12px;
+  }
+  .services-card-description{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #14181e;
+    margin-top:24px;
+  }
+  .services-card-price{
+    font-family: Montserrat-B;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51.2px;
+    color: #14181E;
+    display: flex;
+  }
+  .services-card-currency{
+    font-family: Montserrat-B;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51.2px;
+    color: #6b71f9;
+  }
+  .services-card-key{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    color:#14181E;
+    font-family: Montserrat-Bold;
+  }
+  .phone-img{
+    position: relative;
+    z-index:1;
+    left: 525px;
+    margin-top:-565px;
+  }
+  .search-img{
+    position: absolute;
+    left: 53%;
+    margin-top:-720px;
+    z-index: 1;
+  }
+  .benefit{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  .benefit-content{
+    width: 100%;
+    min-height: 587px;
+    display: flex;
+    margin-top: 52px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .benefit-card{
+    max-width: 350.67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .benefit-card-title{
+    font-family: Montserrat-B;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #14181E;
+    margin-top: 32px;
+  }
+  .benefit-card-description{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+    text-align: center;
+    margin-top: 32px;
+  }
+  .cases{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top:150px;  
+  }
+  .cases-content{
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+  }
+  .cases-stats{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .stats{
+    height: 268px;
+    width: 253px;
+    border-radius: 16px;
+    padding: 32px;
+    background-color: #ffff;
+    box-shadow: 0px 0px 21px 0px #3F44C026;
+  }
+  .stats-title{
+    font-family: Montserrat-B;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 97.52px;
+    height: 98px;
+  }
+  .stats-content{
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height:29.26px;
+    color: #A1A3A5;
+    height: 58px;
+  }
+  .cases-projects{
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .cases-projects-line{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .project-card-big{
+    max-width: 572px;
+    height: 552px;
+    border-radius: 16px;
+    padding: 32px;
+    background: #ffffff;
+    box-shadow: 0px 0px 21px 0px #3F44C026;
+    margin-bottom: 16px;
+  }
+  .project-card-preview{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .project-card-title{
+    height: 29px;
+    width: auto;
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #14181E;
+  }
+  .project-card-category{
+    width: auto;
+    height: auto;
+    padding: 8px 16px 8px 16px;
+    background-color: #E9E9FF;
+    border-radius: 20px;
+    font-family: Montserrat-Medium;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #6b71f9;
+  }
+  .project-card-tern{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    color:#A1A3A5;
+  }
+  .project-card-diagramm{
+    margin-top: 53.61px;
+  }
+  .project-card-image{
+    width: 100%;
+  }
+  .designations{
+    display: flex;
+    max-width: 299px;
+    min-height: 17px;
+    margin: 0 auto;
+    margin-top: 32px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .browser{
+    height: 17px;
+    width: 73px;
+    display: flex;
+    align-items: center;
+  }
+  .yandex{
+    height: 8px;
+    width: 8px;
+    border-radius: 72px;
+    background-color: #12a150;
+    margin-right: 4.5px;
+  }
+  .yahool{
+    height: 8px;
+    width: 8px;
+    border-radius: 72px;
+    background-color: #FD6153;
+    margin-right: 4.5px;
+  }
+  .google{
+    height: 8px;
+    width: 8px;
+    border-radius: 72px;
+    background-color: #F5A200;
+    margin-right: 4.5px;
+  }
+  .browser-title{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #727478;
+    font-family: Montserrat-Regular;
+  }
+  .improve{
+    margin-top: 24px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .improve-card{
+    width: 265px;
+    height: 104px;
+    padding: 16px 24px 16px 24px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 21px 0px #3F44C026;
+    border-radius: 20px;
+  }
+  .improve-card-number{
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    text-align: center;
+  }
+  .improve-card-number.improve-card-number_color_blue{
+    color: #6b71f9;
+  }
+  .improve-card-number.improve-card-number_color_red{
+    color: #FD6153;
+  }
+  .improve-card-description{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    text-align: center;
+    color: #14181E;
+    margin-top: 4px;
+  }
+  .improve-card-traffic{
+    font-family: Montserrat-Regular;
+    font-weight: 500;
+    font-size:12px;
+    line-height: 14.63px;
+    text-align: center;
+    color:#A1A3A5;
+    margin-top: 4px;
+  }
+  .project-card-small{
+    max-width: 572px;
+    height: 238px;
+    border-radius: 16px;
+    padding: 32px;
+    background: #ffffff;
+    box-shadow: 0px 0px 21px 0px #3F44C026;
+    margin-bottom: 16px;
+  }
+  .project-card-category.project-card-category_color_red{
+    color: #FD6153;
+    background-color: #FFEBE9;
+  }
+  .improve.improve-small-card{
+    margin-top:32px
+  }
+  .improve-card-number.improve-card-number-small-card{
+    font-family: Montserrat-Bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42.67px;
+  }
+  .team{
+    width: 90%;
+    margin: 0 auto;
+    margin-top:150px;
+  }
+  .team-content{
+    width: 100%;
+    margin-top:52px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .employee{
+    width: 293px;
+    height: 328px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  .employee-content{
+    background-color: #ffffff;
+    width: 265px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 12px 10px 12px 10px;
+    box-shadow: 0px 0px 21px 0px #3F44C026;
+    position: relative;
+    top: -95px;
+    left:4px;
+  }
+  .employee-name{
+    font-family: Montserrat-Medium;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #14181E;
+  }
+  .employee-job{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .all__btn{
+    background-color: #6b71f9;
+    height: 56px;
+    width: 254px;
+    border: none;
+    color: #ffffff;
+    box-shadow: 0px 0px 12px 0px #6B71F933;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-top: 72px;
+  }
+  .companies{
+    width: 90%;
+    margin: 0 auto;
+    margin-top:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .companies-content{
+    width: 100%;
+    margin-top: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+  }
+  .reviews{
+    width: 100%;
+    margin: 0 auto;
+    margin-top:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviews-content{
+    width: 100%;
+    margin-top: 52px;
+    overflow-y: hidden;
+  }
+
+  .marketing__calculator{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+  .marketing__calculator-content{
+    margin-top: 52px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  } 
+  .marketing__calculator-message{
+    width: 396px;
+    background-color: #6B71F9;
+    height: 500px;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .marketing__calculator-img{
+    height: 90%;
+    width: 90%;
+    overflow: visible;
+    margin-top: 120px;
+  }
+  
+  .marketing__calculator-form{
+    height: 500px;
+    padding: 24px 32px 32px 32px;
+    background-color: #fff;
+    box-shadow: 0px 0px 21px 0px #3F44C026;
+    border-radius: 16px;
+    width: 750px;
+  }
+
+  .marketing__calculator-form .content{
+    background: none;
+    padding: 0;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .marketing__calculator-message .text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    text-align:center;
+    color: #fff;
+    width: 100%;
+    background: none;
+    padding: 0;
+    overflow: visible;
+    font-family: "Montserrat-B";
+  }
+
+  .marketing__calculator-form .content .block{
+    display: flex;
+    justify-content: space-evenly;
+    height: 136px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .marketing__calculator-form .content .block .title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #14181E;
+    font-family: "Montserrat-Bold";
+  }
+  .progress-container {
+    width: 100%;
+    height: 4px;
+    background-color: #F3F3F4;
+    border-radius: 15px;
+    position: relative;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #6B71F9;
+    border-radius: 15px;
+    transition: width 0.3s ease; /* Плавная анимация ширины */
+}
+
+.slider {
+    width: 15px;
+    height: 15px;
+    background-color: #6B71F9;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    cursor: pointer;
+    user-select: none;
+    transition: left 0.3s ease; /* Плавная анимация позиции ползунка */
+}
+
+.progress-count{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat-Bold";
+  font-size:16px;
+  line-height: 19.5px;
+  color: #14181E;
+  font-weight: 600;
+  margin-top:8px;
+}
+
+.dot{
+  display: block;
+  height: 8px;
+  width: 8px;
+  border-radius: 10px;
+  background-color: #E9E9FF;
+  margin-right: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.marketing__calculator-dots{
+  display: flex;
+  justify-content: center;
+}
+
+.dot.active{
+  background-color: #6B71F9;
+}
+.marketing__calculator-form.content.block.form.title{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #6B71F9;
+  font-family: "Montserrat-Bold";
+}
+
+.progress-container-small {
+  width: 214px;
+  height: 4px;
+  background: linear-gradient(90deg, #F83D2C 0%, #EEBB08 59.4%, #12A150 118.81%);
+  border-radius: 15px;
+  position: relative;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.progress-container-small::before{
+  content: '😢';
+  position: absolute;
+  top: -8px;
+  left: -20px;
+}
+
+.progress-container-small::after{
+  content: '😀';
+  position: absolute;
+  top: -8px;
+  right: -30px;
+}
+
+.progress-bar-small{
+  height: 100%;
+  border-radius: 15px;
+  transition: width 0.3s ease; 
+}
+
+.slider-small{
+      width: 15px;
+    height: 15px;
+    background: linear-gradient(90deg, #F83D2C 0%, #EEBB08 59.4%, #12A150 118.81%);
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    cursor: pointer;
+    user-select: none;
+    transition: left 0.3s ease;
+}
+
+.marketing__calculator-form.content.block.form.progress{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.marketing__calculator-form.content.block.form.title{
+  height: 10px;
+}
+.marketing__calculator-form.content.block.title-description{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #898B8E;
+  font-family: "Montserrat-Regular";
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+.marketing__calculator-form.content.block.title-description.progress{
+  margin-top: -20px;
+}
+
+.input-progress{
+  position: absolute;
+  right: 0;
+}
+
+.name-input{
+  font-weight: 600;
+  line-height: 19.5px;
+  font-size: 16px;
+  color: #14181E;
+  font-family: "Montserrat-Bold";
+  margin-bottom: 6px;
+}
+.input-form{
+  border: 1px solid #D0D1D2;
+  background-color: #fff;
+  padding: 12px;
+  width: 96%;
+  height: 22px;
+  border-radius: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  font-family: "Montserrat-Regular";
+}
+
+.form-btn{
+  width: 100%;
+  height: 44px;
+  border-radius: 15px;
+  border: none;
+  background: #6B71F9;
+  padding-top: 11px;
+  padding-right: 12px;
+  padding-bottom: 11px;
+  padding-left: 12px;
+  font-weight: 600;
+  line-height: 19.5px;
+  font-size: 16px;
+  font-family: "Montserrat-Bold";
+  color: #fff;
+}
+
+.telegram-block{
+  width: 90%;
+  height: 342px;
+  background-color: #fff;
+  box-shadow: 0px 0px 21px 0px #3F44C026;
+  border-radius: 16px;
+  padding: 32px;
+  padding-bottom: 0;
+  padding-right: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 10;
+  position: relative;
+
+}
+.telegram-block-content{
+  width: 580px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.telegram-block-title{
+  font-weight: 700;
+  font-family: "Montserrat-B";
+  font-size: 35px;
+  line-height: 42.67px;
+  color: #14181E;
+  margin-bottom: 16px;
+}
+
+.telegram-block-p{
+  font-weight: 400;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #43464B;
+  width: 414px;
+
+}
+
+.telegram-block-btn{
+  background-color: #6B71F9;
+  border: none;
+  border-radius: 15px;
+  width: 212px;
+  height: 46px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Montserrat-Bold";
+  font-size: 16px;
+  line-height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.telegram-block-img{
+  height: 300px;
+  width: 407px;
+  display: block;
+  margin-top: 43px;
+}
+
+.faq-block{
+  width: 90%;
+  margin: 0 auto;
+  margin-top:150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-information{
+  width: 75%;
+  margin-top: 52px;
+  padding-left: 150px;
+  padding-right: 150px; 
+}
+
+.faq-line{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.faq-more{
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.faq-more:hover{
+  transform: rotate(180deg);
+  transition: 0.3s ease-in-out;
+}
+
+.active-more{
+  transform: rotate(180deg);
+}
+
+.active-more:hover{
+  transform: rotate(360deg);
+  transition: 0.3s ease-in-out;
+}
+
+.faq-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  color: #14181E;
+  font-family: "Montserrat-B";
+  margin-bottom: 8px;
+}
+
+.faq-description{
+  font-weight: 400;
+  font-family: "Montserrat-Regular";
+  font-size: 20px;
+  line-height: 24.38px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #14181E;
+  margin-bottom: 24px;
+}
+
+.faq-description li{
+  margin-top: 30px;
+}
+
+.fast-analysis{
+  width: 90%;
+  margin: 0 auto;
+  margin-top:150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fast-analysis-content{
+  margin-top: 52px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fast-analysis-message{
+  width: 33%;
+  background-color: #6B71F9;
+  height: 500px;
+  border-radius: 16px;
+  padding: 32px;
+  padding-bottom: 0px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.fast-analysis-message.text{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.26px;
+  text-align:center;
+  color: #fff;
+  width: 100%;
+  background: none;
+  padding: 0;
+  overflow: visible;
+  font-family: "Montserrat-B";
+}
+
+.fast-analysis-form{
+    height: 500px;
+    padding: 24px 32px 32px 32px;
+    background-color: #fff;
+    box-shadow: 0px 0px 21px 0px #3F44C026;
+    border-radius: 16px;
+    width: 700px;
+}
+
+.fast-analysis-form .content{
+  background: none;
+  padding: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fast-analysis-form .content .title{
+  height: 24px;
+  font-family: "Montserrat-Bold";
+  font-weight: 600;
+  font-size: 20px;
+  color: #14181E;
+}
+
+.fast-analysis-dots{
+  display: flex;
+  justify-content: center;
+}
+
+.services-card:hover{
+    margin-top: -20px;
+    transition: ease 0.5s;
+}
+
+
+.faq:hover > p{
+  transform: rotate(15deg);
+  transition: ease-in-out 0.5s;
+}
+
+.reviews-url:hover{
+  transform: rotate(-270deg);
+  transition: ease-in-out 0.3s;
+}
+
+.benefit-card:hover > .benefit-card-img{
+    height: 320px;
+    transition: ease-in-out 0.3s;
+}
+
+.phone-img:hover{
+    transform: rotate(-10deg);
+    margin-top: -705px;
+    transition: ease-in-out 0.3s;
+}
+
+.search-img:hover{
+  transform: rotate(-10deg);
+  transition: ease-in-out 0.3s;
+}
+
+.price__nav:hover > .price__img{
+  height: 500px;
+  transition: ease-in-out 1s;
+}
+
+button:hover{
+    background-color: #3F44C0;
+}
+
+button:active{
+  background-color: #171B77;
+}
+
+.porfolio:hover{
+  background: url(../../inStyles/images/portfolioHover.svg);
+  transition: ease-in-out 0.3s;
+}
+
+.telegram-block:hover > .telegram-block-img{
+  height: 330px;
+  width: 437px;
+  transition: ease-in-out 0.3s;
+}
+
+
+.form-slides-btn{
+  background: #6B71F9;
+  width: 110px;
+  height: 46px;
+  box-shadow: 0px 0px 12px 0px #6B71F933;
+  border-radius: 15px;
+  border:none;
+  font-family: "Montserrat-Bold";
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+
+.form-slides-btn.white{
+  background: #fff;
+  color: #6B71F9;
+  box-shadow: none;
+  margin-right: 10px;
+}
+
+  @media (max-width:767px){
+    .main{
+      width: 100%;
+      overflow: hidden;
+    }
+    .welcome{
+      margin:0;
+      width: 100%;
+    }
+    .companyName{
+      width: 100%;
+      height: 1002px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .description::before{
+      content: url(../../inStyles/images/rocketRight.png);
+      z-index: 10;
+      top: 250px;
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      transform: translate(-50%);
+      overflow: hidden;
+    }
+    .nav{
+      display: flex;
+      flex-direction: column;
+    }
+    .description{
+      width: 100%;
+      margin:0 auto;
+      font-size: 20px;
+      line-height: 24.38px;
+
+    }
+    .sum__btn{
+      width: 100%;
+    }
+    .price__nav{
+      width: auto;
+      overflow: visible;
+      padding-left: 10px;
+    }
+    .price__nav-title{
+      max-width: 100%;
+    }
+    .price__img{
+      margin: 0 auto;
+      border-radius:50px;
+    }
+    .nav__team{
+      width: 100%;
+      flex-direction: column;
+    }
+    .weCommands{
+      width: 100%;
+    }
+    .porfolio:hover {
+      background-size: 100%;
+      margin-top: 16px;
+      width: 112%;
+      background-repeat: no-repeat;
+  }
+    .reviews-faq{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .porfolio{
+      background-size: 100%;
+      margin-top: 16px;
+      width: auto !important;
+      background-repeat: no-repeat;
+    }
+    .brief-button{
+      width: 183px;
+      height: 69px;
+      top: 160px;
+      left: 200px;
+      font-size: 16px;
+      line-height: 19.5px;
+      padding-left: 20px;
+    }
+    .services{
+      margin-top: 800px;
+    }
+    .block-title{
+      font-size: 35px;
+      line-height: 42.67px;
+
+    }
+    .services-content{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      height: auto;
+    } 
+    .services-card{
+      left: 0 !important;
+      bottom: 0 !important;
+      width: auto;
+      height: 290px;
+      margin-bottom: 32px;
+    }
+
+    .phone-img{
+      display: none;
+    }
+    .search-img{
+      display: none;;
+    }
+    .team-content{
+      flex-direction: column;
+      align-items: center;
+    }
+    .services-card-title{
+      font-size: 20px;
+      line-height: 100%;
+    }
+    .services-card-description{
+      font-size:14px;
+      line-height: 100%;
+    }
+    .services-card-price{
+      font-size: 35px;
+    }
+    .benefit-card-img{
+      height: 200px;
+      width: 200px;
+    }
+    .benefit-card{
+      height: 437px;
+    }
+
+    .cases-stats{
+      justify-content: center;
+    }
+
+    .cases{
+      width: 100%;
+    }
+
+    .stats{
+      width: 100%;
+      height: 210px;
+      margin-bottom: 16px;
+    }
+    .services{
+      width: 100%;
+    }
+    .project-card-big{
+      max-width: 100%;
+    }
+    .project-card-small{
+      max-width: 100%;
+    }
+    .employee{
+      margin-bottom: 61px;
+    }
+    .company-img{
+      height: 30px;
+    }
+    .faq-title{
+      font-size: 20px;
+    }
+    .faq-information{
+      padding: 0;
+      width: 100%;
+    }
+    .faq-description{
+      font-size: 14px;
+      line-height: 100%;
+    }
+    .faq-description li{
+      margin-top: 15px;
+    }
+    .project-card-big{
+      padding: 0;
+    }
+    .project-card-small{
+      padding: 0;
+    }
+
+    .improve-card{
+      width: auto;
+    }
+    .telegram-block{
+      width: 100%;
+      flex-direction: column;
+      display: none;
+    }
+    .price__img{
+      height: 351px;
+      margin: 0 auto;
+      display: block;
+      border-radius: 0;
+    }
+
+    .price__nav:hover > .price__img{
+      height: 351px;
+    }
+    .benefit-content{
+      justify-content: center;
+    }
+    .project-card-category{
+      height:15px;
+      width: 91px;
+      font-size: 12px;
+      line-height: 100%;
+    }
+    .project-card-category.project-card-category_color_red{
+      width: 154px;
+      margin-top: -10px;
+    }
+    .project-card-title{
+      width: 228px;
+      font-size: 20px;
+      line-height: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .project-card-preview{
+      height: 69px;
+      justify-content: center;
+      align-items: flex-end;
+      padding-top: 10px;
+    }
+    .project-card-tern{
+      font-size: 14px;
+      line-height: 100%;
+      text-align: center;
+    }
+  }

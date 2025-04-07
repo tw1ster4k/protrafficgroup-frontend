@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../inStyles/Montserrat/static/Montserrat-Light.ttf);
+  }
+
+  @font-face {
+    font-family: Montserrat-Bold;
+    src: url(../../inStyles/Montserrat/static/Montserrat-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Montserrat-Medium;
+    src: url(../../inStyles/Montserrat/static/Montserrat-Medium.ttf);
+  }
+    .footer-item{
+    height: 339px;
+    background-color: #14181E;
+    padding: 40px 110px 40px 110px;
+}
+
+.footer-content{
+    height: 209px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.column-title{
+    font-family: Montserrat-Bold;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+}
+.column-item{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 24px;
+    font-family: Montserrat-Medium;
+    opacity: 0.7;
+}
+.footer-btn{
+    font-family: Montserrat-Medium;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    width: 288px;
+    height: 40px;
+    padding: 8px 16px 8px 19px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6B71F9;
+    color: #fff;
+    box-shadow: 0px 0px 12px 0px #6B71F933;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.network{
+    margin-top: 24px;
+    width: 136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:767px){
+    .footer-item{
+        padding: 16px 40px 16px 40px;
+        height: auto;
+    }
+    .footer-content{
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 24px;
+    }
+    .column{
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .footer-btn{
+        margin: 0 auto;
+    }
+}
